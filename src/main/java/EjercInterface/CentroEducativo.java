@@ -15,6 +15,12 @@ public class CentroEducativo {
     //devolver cantidad aprovados
 
     public int cantAprobados(){
+        int cant=0;
+        for (Alumno alumno : alumnos){
+            if(alumno.aprobo()){
+                cant ++;
+            }
+        }
         return 0;
     }
 }
