@@ -28,4 +28,5 @@ public class Principal {
         System.out.println("Cantidad Alumnos aprobados: "+c.cantAprobados());
 
     }
+
 }
